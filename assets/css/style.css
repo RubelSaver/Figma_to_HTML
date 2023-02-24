@@ -1,10 +1,296 @@
 /* common CSS */
-* {
-    margin: 0;
-    padding: 0;
-    }
 
-:root {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-  }
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yellowtail', cursive;
+*/
+
+header {
+    padding: 75px 162px;
+}
+
+header #top-head {}
+
+header #top-head .site-logo {
+    margin-left: -125px;
+}
+
+header #top-head .site-logo>a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+}
+
+header #top-head .site-logo>a>img {
+    width: 37px;
+    height: 54px;
+}
+
+header #top-head .site-logo>a>p {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 45px;
+    color: #274C5B;
+    margin-left: 9px;
+}
+
+header #top-head .Main_manu {}
+
+header #top-head .Main_manu>ul {}
+
+header #top-head .Main_manu>ul>li {}
+
+header #top-head .Main_manu>ul>li>a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #274C5B;
+    text-decoration: none;
+    padding: 16px 10px;
+    display: block;
+}
+
+header #top-head .search-cart-wrap {
+    display: flex;
+    justify-content: flex-start;
+}
+
+header #top-head .search-cart-wrap .search {
+    display: flex;
+    position: relative;
+    margin-right: 18px;
+}
+
+header #top-head .search-cart-wrap .search>input {
+    background: #FAFAFA;
+    border-radius: 36px;
+    border: none;
+    height: 66px;
+    width: 174px;
+}
+
+header #top-head .search-cart-wrap .search>input:focus {
+    outline: none;
+}
+
+header #top-head .search-cart-wrap .search>i {}
+
+header #top-head .search-cart-wrap .search .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: #7EB693;
+    color: #fff;
+    padding: 18px 19px;
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+header #top-head .search-cart-wrap .cart {
+    display: flex;
+    align-items: center;
+    border: 1px solid #E0E0E0;
+    border-radius: 33px;
+    height: 66px;
+}
+
+header #top-head .search-cart-wrap .cart>i {}
+
+header #top-head .search-cart-wrap .cart>p {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #274C5B;
+    padding: 21px 23px 24px 0px;
+}
+
+header #top-head .search-cart-wrap .cart .cart-icon {
+    display: inline-block;
+    height: 22px;
+    width: 23px;
+    color: #fff;
+    background-color: #274C5B;
+    border-radius: 50%;
+    padding: 17px 18px 17px 15px;
+    margin: 5px 12px 5px 6px;
+}
+
+/* 
+==============================
+    End Header area
+==============================
+*/
+
+#home_banner {
+    background-image: url(../images/site_banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home_banner .main_banner {
+    padding-top: 247px;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+}
+
+#home_banner .main_banner>h3 {
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #68A47F;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+#home_banner .main_banner>h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 82px;
+    color: #274C5B;
+    margin: 0;
+    padding-bottom: 23px;
+}
+
+#home_banner .home_buttion {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 247px;
+}
+
+#home_banner .home_buttion>button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #274C5B;
+    padding: 28px 68px 28px 39px;
+    background: #EFD372;
+    border-radius: 16px;
+    position: relative;
+    border: none;
+}
+
+#home_banner .home_buttion .arrow-icon {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    background-color: #335B6B;
+    padding: 6px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+/* 
+==============================
+    End home_banner
+==============================
+*/
+
+#offer_area {
+    padding-top: 145px;
+    padding-bottom: 88px;
+}
+
+#offer_area .offer-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+#offer_area .offer-wrap .single-offer {
+    background-image: url(../images/home27.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    border-radius: 16px;
+}
+
+#offer_area .offer-wrap .single-offer .offer-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 118px;
+    padding-bottom: 110px;
+    padding-left: 55px;
+    padding-right: 350px;
+}
+
+#offer_area .offer-wrap .single-offer .offer-content>h3 {
+    margin: 0;
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+#offer_area .offer-wrap .single-offer .offer-content>h2 {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+#offer_area .offer-wrap .single-offer1 {
+    background-image: url(../images/home7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    border-radius: 16px;
+}
+
+#offer_area .offer-wrap .single-offer1 .offer-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 118px;
+    padding-bottom: 110px;
+    padding-left: 55px;
+    padding-right: 350px;
+}
+
+#offer_area .offer-wrap .single-offer1 .offer-content>h3 {
+    margin: 0;
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #7EB693;
+}
+
+#offer_area .offer-wrap .single-offer1 .offer-content>h2 {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    color: #274C5B;
+}
