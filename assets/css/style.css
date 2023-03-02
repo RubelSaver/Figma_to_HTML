@@ -455,6 +455,7 @@ header #top-head .search-cart-wrap .cart .cart-icon {
 
 #home_categories {
     padding-top: 176px;
+    position: relative;
 }
 
 #home_categories .section-title {
@@ -489,7 +490,9 @@ header #top-head .search-cart-wrap .cart .cart-icon {
     margin: 10px 0px;
 }
 
-#home_categories .single-category .category-image {}
+#home_categories .single-category .category-image {
+    text-align: center;
+}
 
 #home_categories .single-category .category-image>img {
     padding-top: 73px;
@@ -587,10 +590,11 @@ header #top-head .search-cart-wrap .cart .cart-icon {
 }
 
 #home_categories .category-buttion {
-    position: relative;
-    display: inline-block;
+    position: absolute;
     padding-bottom: 199px;
-    margin-top: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -350px;
 }
 
 #home_categories .category-buttion>a {}
@@ -613,6 +617,696 @@ header #top-head .search-cart-wrap .cart .cart-icon {
     position: absolute;
     top: 25px;
     right: 30px;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    background-color: #335B6B;
+    padding: 6px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+/* 
+==============================
+    End home_categories
+==============================
+*/
+
+#clicent_review {
+    margin-top: 250px;
+    padding-bottom: 165px;
+    background-image: url(../images/home1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#clicent_review .section_title {
+    padding-top: 164px;
+}
+
+#clicent_review .section_title>h2 {
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #7EB693;
+    text-align: center;
+}
+
+#clicent_review .section_title>h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #274C5B;
+    margin: 0;
+}
+
+#clicent_review .review_slider {
+    text-align: center;
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#clicent_review .review_slider>img {
+    margin-top: 60px;
+    border-radius: 50%;
+    display: initial;
+    width: auto;
+}
+
+#clicent_review .review_slider .star_group {
+    margin-top: 20px;
+}
+
+#clicent_review .review_slider .star_group .starIcon {
+    display: inline-block;
+    height: 26px;
+    width: 28px;
+    color: #FFA858;
+}
+
+#clicent_review .review_slider>p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    text-align: center;
+    color: #525C60;
+    margin-top: 25px;
+}
+
+#clicent_review .review_slider .slider_text {}
+
+#clicent_review .review_slider .slider_text>h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #274C5B;
+    margin: 0;
+}
+
+#clicent_review .review_slider .slider_text>h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 165.4%;
+    color: #525C60;
+    margin: 0;
+}
+
+#clicent_review #testimonial_slider .owl-dots {
+    text-align: center;
+    margin-top: 19px;
+    padding-bottom: 102px;
+}
+
+#clicent_review #testimonial_slider .owl-dots>button>span {
+    height: 8px;
+    display: block;
+    width: 8px;
+    margin: 0px 3px;
+    background: #C4C4C4;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+#clicent_review .brand_reputation {}
+
+#clicent_review .brand_reputation .brand_slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 102px;
+    position: relative;
+}
+
+#clicent_review .brand_reputation .brand_slider::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 75%;
+    top: -102px;
+    background-color: #E0E0E0;
+}
+
+#clicent_review .brand_reputation .brand_slider .single_brand {
+    border-radius: 50%;
+    background-color: #F1F1F1;
+    height: 211px;
+    width: 211px;
+    border: 5px solid#7EB693;
+    padding: 2px;
+}
+
+#clicent_review .brand_reputation .brand_slider .single_brand .inside_border {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    border: 5px solid#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#clicent_review .brand_reputation .brand_slider .single_brand .inside_border>h1 {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #274C5B;
+}
+
+#clicent_review .brand_reputation .brand_slider .single_brand .inside_border>p {
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    text-align: center;
+    color: #274C5B;
+}
+
+/* 
+==============================
+    End clicent_review
+==============================
+*/
+
+
+#Product_Showcase {
+    padding: 200px 0px;
+    background-color: #274C5B;
+}
+
+#Product_Showcase .title_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#Product_Showcase .title_wrap .section_title {}
+
+#Product_Showcase .title_wrap .section_title>h2 {
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #7EB693;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+#Product_Showcase .title_wrap .section_title>h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#Product_Showcase .title_wrap .showcase_buttion {
+    position: relative;
+    display: inline-block;
+}
+
+#Product_Showcase .title_wrap .showcase_buttion>a {
+    text-decoration: none;
+}
+
+#Product_Showcase .title_wrap .showcase_buttion>a>button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #274C5B;
+    padding: 28px 68px 28px 39px;
+    background: #EFD372;
+    border-radius: 16px;
+    position: relative;
+    border: none;
+}
+
+#Product_Showcase .title_wrap .showcase_buttion .arrow_icon3 {
+    position: absolute;
+    top: 25px;
+    right: 28px;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    background-color: #335B6B;
+    padding: 6px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+#Product_Showcase .title_wrap .showcase_buttion>a>i {}
+
+#Product_Showcase .single_Showcase {
+    background: #F9F8F8;
+    border-radius: 30px;
+    position: relative;
+    margin: 10px 0px;
+}
+
+#Product_Showcase .single_Showcase .Showcase_image {
+    text-align: center;
+}
+
+#Product_Showcase .single_Showcase .Showcase_image>img {
+    padding-top: 73px;
+}
+
+#Product_Showcase .single_Showcase .Showcase_image>button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #274C5B;
+    border-radius: 8px;
+    padding: 5px 12px 6px 12px;
+    position: absolute;
+    top: 29px;
+    left: 30px;
+}
+
+#Product_Showcase .single_Showcase .Showcase_title {
+    padding-left: 30px;
+}
+
+#Product_Showcase .single_Showcase .Showcase_title>h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #274C5B;
+    padding-top: 5px;
+    margin-bottom: 0;
+    padding-bottom: 19px;
+    position: relative;
+}
+
+#Product_Showcase .single_Showcase .Showcase_title>h2::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 220px;
+    background-color: #DEDDDD;
+    bottom: 10px;
+    left: 0;
+}
+
+#Product_Showcase .single_Showcase .Showcase_offer_wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+#Product_Showcase .single_Showcase .Showcase_offer_wrap .Showcase_offer {
+    display: flex;
+    padding-bottom: 17px;
+}
+
+#Product_Showcase .single_Showcase .Showcase_offer_wrap .Showcase_offer .price {}
+
+#Product_Showcase .single_Showcase .Showcase_offer_wrap .Showcase_offer .price>h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #B8B8B8;
+    text-decoration: line-through;
+}
+
+#Product_Showcase .single_Showcase .Showcase_offer_wrap .Showcase_offer .offer {}
+
+#Product_Showcase .single_Showcase .Showcase_offer_wrap .Showcase_offer .offer>h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #274C5B;
+    margin-left: 8px;
+}
+
+#Product_Showcase .single_Showcase .Showcase_offer_wrap .Showcase_star {
+    margin-right: 6px;
+}
+
+#Product_Showcase .single_Showcase .Showcase_offer_wrap .Showcase_star .Showcase_icon {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    color: #FFA858;
+}
+
+
+/* 
+==============================
+    End Product_Showcase
+==============================
+*/
+
+#Eco_friend {
+    position: relative;
+}
+
+#Eco_friend .single_eco {}
+
+#Eco_friend .single_eco>img {
+    height: 931px;
+}
+
+#Eco_friend .organic_store {
+    width: 789px;
+    border-radius: 30px;
+    position: absolute;
+    top: 100px;
+    right: 260px;
+    background-color: #fff;
+}
+
+#Eco_friend .organic_store .section_title {
+    margin-top: 78px;
+    margin-left: 89px;
+}
+
+#Eco_friend .organic_store .section_title>h2 {
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #7EB693;
+    margin: 0;
+}
+
+#Eco_friend .organic_store .section_title>h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    color: #274C5B;
+    margin: 0;
+}
+
+#Eco_friend .organic_store .section_content_wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+#Eco_friend .organic_store .section_content_wrap .section_content {
+    margin-left: 89px;
+    margin-top: 35px;
+}
+
+#Eco_friend .organic_store .section_content_wrap .section_content>h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #274C5B;
+}
+
+#Eco_friend .organic_store .section_content_wrap .section_content>p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    color: #525C60;
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+/* 
+==============================
+    End Eco_friend
+==============================
+*/
+
+#featured_product {
+    padding: 187px 0px;
+    background-color: #F1F8F4;
+}
+
+#featured_product .single_featured {
+    position: relative;
+}
+
+#featured_product .single_featured>img {}
+
+#featured_product .single_featured .Featured_buttion {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#featured_product .single_featured .Featured_buttion>a {
+    text-decoration: none;
+}
+
+#featured_product .single_featured .Featured_buttion>a>button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #274C5B;
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 316px;
+    height: 96px;
+}
+
+/* 
+==============================
+    End featured_product
+==============================
+*/
+
+#blog {
+    padding-top: 177px;
+    padding-bottom: 185px;
+}
+
+#blog .blog_title_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 48px;
+}
+
+#blog .blog_title_wrap .section_title {
+    width: 702px;
+}
+
+#blog .blog_title_wrap .section_title>h2 {
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #7EB693;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+#blog .blog_title_wrap .section_title>h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    color: #274C5B;
+    margin: 0;
+}
+
+#blog .blog_title_wrap .blog_buttion {
+    position: relative;
+    display: inline-block;
+}
+
+#blog .blog_title_wrap .blog_buttion>a {
+    text-decoration: none;
+}
+
+#blog .blog_title_wrap .blog_buttion>a>button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #274C5B;
+    padding: 28px 73px 29px 45px;
+    background: #efd37200;
+    border-radius: 16px;
+    position: relative;
+    border: 2px solid#274C5B;
+}
+
+#blog .blog_title_wrap .blog_buttion .blog_icon {
+    position: absolute;
+    top: 25px;
+    right: 28px;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    background-color: #335B6B;
+    padding: 6px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+#blog .single_blog {
+    position: relative;
+}
+
+#blog .single_blog>img {
+    border-radius: 22px;
+}
+
+#blog .single_blog .blog_date {
+    display: inline-block;
+    height: 83px;
+    width: 83px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 43px;
+    left: 32px;
+}
+
+#blog .single_blog .blog_date>h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #274C5B;
+    padding: 15px 18px;
+}
+
+#blog .single_blog .blog_details {
+    position: absolute;
+    top: 262px;
+    background-color: #fff;
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+    box-shadow: 0px 20px 35px rgba(167, 167, 167, 0.25);
+    border-radius: 31px 34px 30px 30px;
+}
+
+#blog .single_blog .blog_details .author {
+    margin-top: 46px;
+    display: flex;
+    margin-left: 57px;
+}
+
+#blog .single_blog .blog_details .author .author_icon {
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    color: #EFD372;
+    margin-right: 8px;
+}
+
+#blog .single_blog .blog_details .author>h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #274C5B;
+    margin: 0;
+}
+
+#blog .single_blog .blog_details .post_title {
+    margin-left: 57px;
+}
+
+#blog .single_blog .blog_details .post_title>h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 29px;
+    color: #274C5B;
+    padding-right: 10px;
+}
+
+#blog .single_blog .blog_details .post_title>p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    color: #525C60;
+    margin-top: -10px;
+}
+
+#blog .single_blog .blog_details .post_buttion {
+    margin-left: 57px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 60px;
+}
+
+#blog .single_blog .blog_details .post_buttion>a {
+    text-decoration: none;
+}
+
+#blog .single_blog .blog_details .post_buttion>a>button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #274C5B;
+    padding: 28px 75px 29px 47px;
+    background: #efd372;
+    border-radius: 16px;
+    position: relative;
+}
+
+#blog .single_blog .blog_details .post_buttion .arrow_icon4 {
+    position: absolute;
+    top: 25px;
+    right: 36px;
     height: 18px;
     width: 18px;
     display: inline-block;
